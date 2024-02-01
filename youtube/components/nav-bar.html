@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  
+  <nav class="flex h-16 justify-between shadow-lg items-center
+ bg-white text-gray-800 px-5 py-3 text-sm fixed top-0 left-0 right-0 z-10">
+    <div class="text-md flex items-center">
+        <img src="../public/menu-icon.svg" class="fill-current mx-2 h-4 w-4 cursor-pointer text-gray-800" >
+        <p class="px-4 w-1/3 text-lg">
+          <img src="../public/log.svg" class="style-scope ytd-topbar-logo-renderer"/>      
+        </p>
+    </div>
+    <div class="text-md hidden md:block w-1/3 flex">
+        <input class="border border-gray-500 px-2 py-1 flex w-full" placeholder="Search" />
+    </div>
+    <div class="text-md flex items-center">
+        <a href="#">
+            <img src="../public/notice.svg" class="fill-current mx-2 h-4 w-4 cursor-pointer text-gray-600"/>
+        </a>
+        <a class="bg-purple-800 rounded-full text-white w-10 h-10 flex items-center justify-center text-lg" href="#">A</a>
+    </div>
+</nav>
+</body>
+</html>
+
